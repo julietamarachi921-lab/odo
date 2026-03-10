@@ -1,0 +1,96 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Projects | John Doe</title>
+  <link rel="stylesheet" href="assets/styles.css" />
+</head>
+<body>
+  <header class="site-header">
+    <div class="container header-inner">
+      <a class="brand" href="index.html">John Doe</a>
+      <button class="menu-btn" id="menuBtn" aria-label="Open menu" aria-expanded="false">☰</button>
+      <nav class="nav" id="nav">
+        <a class="nav-link" href="index.html">Home</a>
+        <a class="nav-link" href="about.html">About</a>
+        <a class="nav-link active" href="projects.html">Projects</a>
+        <a class="nav-link" href="contact.html">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="container">
+    <section class="page-head">
+      <h1>Projects</h1>
+      <p class="muted">A few things I’ve built. Swap the content with your real work.</p>
+    </section>
+
+    <section class="grid">
+      <article class="card">
+        <div class="card-top">
+          <h3>Hospital Inventory System</h3>
+          <span class="badge">Backend</span>
+        </div>
+        <p class="muted">
+          Tracks drug stock, batches, expiry dates, dispensing logs, and audit trails.
+        </p>
+        <div class="tags">
+          <span class="tag">Laravel</span><span class="tag">MySQL</span><span class="tag">Policies</span>
+        </div>
+        <div class="card-actions">
+          <a class="link" href="#">Live</a>
+          <a class="link" href="#">Code</a>
+        </div>
+      </article>
+
+      <article class="card">
+        <div class="card-top">
+          <h3>Payment API + Webhooks</h3>
+          <span class="badge">API</span>
+        </div>
+        <p class="muted">
+          Handles payment verification, webhook events, retries, and admin reporting.
+        </p>
+        <div class="tags">
+          <span class="tag">API</span><span class="tag">Queues</span><span class="tag">Jobs</span>
+        </div>
+        <div class="card-actions">
+          <a class="link" href="#">Docs</a>
+          <a class="link" href="#">Code</a>
+        </div>
+      </article>
+
+      <article class="card">
+        <div class="card-top">
+          <h3>Multi-Org SaaS</h3>
+          <span class="badge">SaaS</span>
+        </div>
+        <p class="muted">
+          Organizations, teams, permissions, usage limits, and subscription-ready structure.
+        </p>
+        <div class="tags">
+          <span class="tag">Laravel</span><span class="tag">RBAC</span><span class="tag">Tenancy</span>
+        </div>
+        <div class="card-actions">
+          <a class="link" href="#">Demo</a>
+          <a class="link" href="#">Code</a>
+        </div>
+      </article>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <p>© <span id="year"></span> John Doe. All rights reserved.</p>
+      <div class="footer-links">
+        <a href="mailto:you@example.com">Email</a>
+        <a href="#">GitHub</a>
+        <a href="#">LinkedIn</a>
+      </div>
+    </div>
+  </footer>
+
+  <script src="assets/app.js"></script>
+</body>
+</html>

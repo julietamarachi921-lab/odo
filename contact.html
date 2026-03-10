@@ -1,0 +1,84 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Contact | John Doe</title>
+  <link rel="stylesheet" href="assets/styles.css" />
+</head>
+<body>
+  <header class="site-header">
+    <div class="container header-inner">
+      <a class="brand" href="index.html">John Doe</a>
+      <button class="menu-btn" id="menuBtn" aria-label="Open menu" aria-expanded="false">☰</button>
+      <nav class="nav" id="nav">
+        <a class="nav-link" href="index.html">Home</a>
+        <a class="nav-link" href="about.html">About</a>
+        <a class="nav-link" href="projects.html">Projects</a>
+        <a class="nav-link active" href="contact.html">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="container">
+    <section class="page-head">
+      <h1>Contact</h1>
+      <p class="muted">Send a message. This form is front-end only (no backend).</p>
+    </section>
+
+    <section class="grid-2">
+      <div class="card">
+        <h2>Message</h2>
+        <form class="form" action="#" method="post">
+          <label class="field">
+            <span>Name</span>
+            <input type="text" name="name" placeholder="Your name" required />
+          </label>
+
+          <label class="field">
+            <span>Email</span>
+            <input type="email" name="email" placeholder="you@example.com" required />
+          </label>
+
+          <label class="field">
+            <span>Message</span>
+            <textarea name="message" rows="6" placeholder="Write your message..." required></textarea>
+          </label>
+
+          <button class="btn" type="submit">Send</button>
+        </form>
+      </div>
+
+      <div class="card">
+        <h2>Details</h2>
+        <p class="muted">You can also reach me here:</p>
+        <ul class="list">
+          <li>Email: <a class="link" href="mailto:you@example.com">you@example.com</a></li>
+          <li>GitHub: <a class="link" href="#">github.com/yourname</a></li>
+          <li>LinkedIn: <a class="link" href="#">linkedin.com/in/yourname</a></li>
+        </ul>
+
+        <hr class="line" />
+
+        <p class="muted">
+          If you want this form to actually send emails, we can connect it to a Laravel backend
+          (Mail, queues, validation, spam protection).
+        </p>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <p>© <span id="year"></span> John Doe. All rights reserved.</p>
+      <div class="footer-links">
+        <a href="mailto:you@example.com">Email</a>
+        <a href="#">GitHub</a>
+        <a href="#">LinkedIn</a>
+      </div>
+    </div>
+  </footer>
+
+  <script src="assets/app.js"></script>
+</body>
+</html>

@@ -1,0 +1,116 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Odo Juliet | Portfolio</title>
+  <link rel="stylesheet" href="assets/styles.css" />
+</head>
+<body>
+  <header class="site-header">
+    <div class="container header-inner">
+      <a class="brand" href="index.html">Odo Juliet</a>
+
+      <button class="menu-btn" id="menuBtn" aria-label="Open menu" aria-expanded="false">
+        ☰
+      </button>
+
+      <nav class="nav" id="nav">
+        <a class="nav-link active" href="index.html">Home</a>
+        <a class="nav-link" href="about.html">About</a>
+        <a class="nav-link" href="projects.html">Projects</a>
+        <a class="nav-link" href="contact.html">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="container">
+    <section class="hero">
+      <div class="hero-text">
+        <p class="pill">Backend • Laravel • APIs</p>
+        <h1>Building clean, reliable web apps.</h1>
+        <p class="muted">
+          I’m John Doe, a backend-focused developer who builds Laravel apps, APIs, dashboards,
+          and data-driven systems.
+        </p>
+
+        <div class="btn-row">
+          <a class="btn" href="projects.html">View Projects</a>
+          <a class="btn btn-ghost" href="contact.html">Contact Me</a>
+        </div>
+
+        <div class="stats">
+          <div class="stat">
+            <p class="stat-num">12+</p>
+            <p class="stat-label">Projects</p>
+          </div>
+          <div class="stat">
+            <p class="stat-num">3+</p>
+            <p class="stat-label">Years</p>
+          </div>
+          <div class="stat">
+            <p class="stat-num">API</p>
+            <p class="stat-label">First</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="hero-card">
+        <h3>Quick Summary</h3>
+        <ul class="list">
+          <li>Laravel, PHP, MySQL</li>
+          <li>REST APIs, Auth, Roles</li>
+          <li>Clean code, performance</li>
+          <li>Deployments + maintenance</li>
+        </ul>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="section-head">
+        <h2>Featured Projects</h2>
+        <a class="link" href="projects.html">See all →</a>
+      </div>
+
+      <div class="grid">
+        <article class="card">
+          <h3>Inventory Management</h3>
+          <p class="muted">Stock in/out, audits, low-stock alerts, role-based access.</p>
+          <div class="tags">
+            <span class="tag">Laravel</span><span class="tag">MySQL</span><span class="tag">RBAC</span>
+          </div>
+        </article>
+
+        <article class="card">
+          <h3>Payments Dashboard</h3>
+          <p class="muted">Transaction tracking, webhook processing, admin reporting.</p>
+          <div class="tags">
+            <span class="tag">API</span><span class="tag">Queues</span><span class="tag">Webhooks</span>
+          </div>
+        </article>
+
+        <article class="card">
+          <h3>Student Portal</h3>
+          <p class="muted">Registration, results, notices, document downloads.</p>
+          <div class="tags">
+            <span class="tag">Laravel</span><span class="tag">Auth</span><span class="tag">Admin</span>
+          </div>
+        </article>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <p>© <span id="year"></span> Odo Juliet. All rights reserved.</p>
+      <div class="footer-links">
+        <a href="mailto:you@example.com">Email</a>
+        <a href="#">GitHub</a>
+        <a href="#">LinkedIn</a>
+      </div>
+    </div>
+  </footer>
+
+  <script src="assets/app.js"></script>
+</body>
+</html>

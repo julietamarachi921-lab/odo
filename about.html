@@ -1,0 +1,97 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>About | Odo Juliet </title>
+  <link rel="stylesheet" href="assets/styles.css" />
+</head>
+<body>
+  <header class="site-header">
+    <div class="container header-inner">
+      <a class="brand" href="index.html">Odo Juliet </a>
+      <button class="menu-btn" id="menuBtn" aria-label="Open menu" aria-expanded="false">☰</button>
+      <nav class="nav" id="nav">
+        <a class="nav-link" href="index.html">Home</a>
+        <a class="nav-link active" href="about.html">About</a>
+        <a class="nav-link" href="projects.html">Projects</a>
+        <a class="nav-link" href="contact.html">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="container">
+    <section class="page-head">
+      <h1>About</h1>
+      <p class="muted">A bit about who I am, what I build, and how I work.</p>
+    </section>
+
+    <section class="grid-2">
+      <div class="card">
+        <h2>Profile</h2>
+        <p class="muted">
+          I build backend systems with Laravel: APIs, admin dashboards, and databases that are easy
+          to maintain. I like clean architecture, proper validation, and secure auth flows.
+        </p>
+        <p class="muted">
+          I’m comfortable working solo or with a team, and I document things clearly so the next
+          developer can move fast.
+        </p>
+      </div>
+
+      <div class="card">
+        <h2>Skills</h2>
+        <div class="tags">
+          <span class="tag">Laravel</span>
+          <span class="tag">PHP</span>
+          <span class="tag">MySQL</span>
+          <span class="tag">REST APIs</span>
+          <span class="tag">Auth + RBAC</span>
+          <span class="tag">Queues</span>
+          <span class="tag">Git</span>
+          <span class="tag">Deployment</span>
+        </div>
+
+        <hr class="line" />
+
+        <h3>What I focus on</h3>
+        <ul class="list">
+          <li>Clear database design (migrations, indexes, constraints)</li>
+          <li>Validation + clean request/response handling</li>
+          <li>Secure auth, roles and permissions</li>
+          <li>Performance: caching, query tuning</li>
+        </ul>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="card">
+        <h2>Experience Snapshot</h2>
+        <div class="timeline">
+          <div class="time-item">
+            <p class="time-title">Backend Developer</p>
+            <p class="muted">Built APIs, admin tools, and database systems for real products.</p>
+          </div>
+          <div class="time-item">
+            <p class="time-title">Freelance Projects</p>
+            <p class="muted">Business websites, dashboards, and automation tools.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <p>© <span id="year"></span> John Doe. All rights reserved.</p>
+      <div class="footer-links">
+        <a href="mailto:you@example.com">Email</a>
+        <a href="#">GitHub</a>
+        <a href="#">LinkedIn</a>
+      </div>
+    </div>
+  </footer>
+
+  <script src="assets/app.js"></script>
+</body>
+</html>
